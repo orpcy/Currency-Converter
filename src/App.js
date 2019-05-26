@@ -21,11 +21,11 @@ class App extends Component {
     return (
       <React.Fragment>
         <div className="App">
-          <h1 class="text-center">Currency Converter</h1>
-          <div class="formWrapper bg-dark">
+          <h1 class="text-center curr">Currency Converter</h1>
+          <div class="formWrapper bg-dark rounded-top border border-danger">
             <form autoComplete="off">
               <div class="form-group row">
-                <label for="exampleFormControlSelect1" class="col-3 text-white">
+                <label for="exampleFormControlSelect1" class="col-3 ml-2 text-white">
                   From
                 </label>
                 <input
@@ -41,7 +41,7 @@ class App extends Component {
                   onChange={this.handleChange}
                 >
                   <option selected disabled>
-                    Select Currency
+                    Currency
                   </option>
                   <option value="USD1">USD</option>
                   <option value="NGN1">NGN</option>
@@ -49,7 +49,7 @@ class App extends Component {
                 </select>
               </div>
               <div class="form-group row">
-                <label for="exampleFormControlSelect1" class="col-3 text-white">
+                <label for="exampleFormControlSelect1" class="col-3 ml-2 text-white">
                   To
                 </label>
                 <input
@@ -87,7 +87,7 @@ class App extends Component {
                   onChange={this.handleChange}
                 >
                   <option selected disabled>
-                    Select Currency
+                    Currency
                   </option>
                   <option value="USD2">USD</option>
                   <option value="NGN2">NGN</option>

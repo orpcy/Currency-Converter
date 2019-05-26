@@ -1,15 +1,16 @@
 .App{
   max-width: 500px;
   width: 100%;
-  margin: 30px auto;
+  margin: 60px auto;
 }
 
 .formWrapper{
-  width: 100%;
+  width: 98%;
   display: flex;
   justify-content: center;
-  margin-top: 20px;
+  margin: 40px 1% 0 1%;
   padding: 40px 0;
+  box-shadow: 8px 5px 10px grey;
 }
 
 form input{
@@ -23,4 +24,8 @@ form label{
 
 input[disabled] {
   background-color: rgb(233, 233, 233);
+}
+
+.curr{
+  text-shadow: 2px 2px 5px red;
 }
