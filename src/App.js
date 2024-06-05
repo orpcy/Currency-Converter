@@ -21,7 +21,7 @@ class App extends Component {
     return (
       <React.Fragment>
         <div className="App">
-          <h1 class="text-center curr">Currency Converter</h1>
+          <h1 class="text-center curr">React Currency Converter</h1>
           <div class="formWrapper bg-dark rounded-top border border-danger">
             <form autoComplete="off">
               <div class="form-group row">
