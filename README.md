@@ -1,1 +1,1 @@
-A Currency Converting app built with react.
+A Currency Conversion app, built with react.
