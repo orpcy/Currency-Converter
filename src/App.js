@@ -60,13 +60,13 @@ class App extends Component {
                   disabled
                   value={
                     baseName === "USD1" && quoteName === "NGN2"
-                      ? baseInput * 360
+                      ? baseInput * 1500
                       : baseName === "USD1" && quoteName === "EUR2"
                       ? baseInput * 0.89
                       : baseName === "USD1" && quoteName === "USD2"
                       ? baseInput
                       : baseName === "NGN1" && quoteName === "USD2"
-                      ? baseInput * 0.0028
+                      ? baseInput * 0.00067
                       : baseName === "NGN1" && quoteName === "EUR2"
                       ? baseInput * 0.0025
                       : baseName === "NGN1" && quoteName === "NGN2"
