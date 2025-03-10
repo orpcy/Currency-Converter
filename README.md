@@ -1,3 +1,3 @@
-A Currency Conversion app, built with react.
+A Currency Conversion app built with React.
 
 Enjoy 🌟
